@@ -7,11 +7,11 @@ class LoginPage {
      cy.url().should('include','web/index.php/auth/login')
    }
     enterUserNamePassword(username, password) {
-     cy.get(localisateur.email).type(username);
-     cy.get(localisateur.password).type(password);
+     cy.get(localisateur.usernameInputBox).type(username);
+     cy.get(localisateur.passwordInputBox).type(password);
    }
     clickSubmitButton() {
-     cy.get(localisateur.boutonLogin).click();
+     cy.get(localisateur.loginButton).click();
    }
     verifyLogin() {
      cy.url().should("include", "web/index.php/dashboard/index");

@@ -1,6 +1,6 @@
 {
-    "email":"[name='username']",
-    "password":"[name='password']",
-    "boutonLogin":".orangehrm-login-button",
+    "usernameInputBox":"[name='username']",
+    "passwordInputBox":"[name='password']",
+    "loginButton":".orangehrm-login-button",
     "sideBar":".oxd-sidepanel-body"
 }
