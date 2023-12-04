@@ -7,6 +7,6 @@ module.exports = defineConfig({
     setupNodeEvents(on, config) {
       on("file:preprocessor", cucumber());
     },
-    //'baseUrl':'https://opensource-demo.orangehrmlive.com'
+    'baseUrl':'https://opensource-demo.orangehrmlive.com'
   },
 });
