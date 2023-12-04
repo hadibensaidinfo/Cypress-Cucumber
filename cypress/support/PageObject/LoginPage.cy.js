@@ -1,4 +1,4 @@
-import localisateur from './Locator.json'
+import localisateur from './Localisateur.json'
 class LoginPage {
     enterURL() {
      cy.visit(
