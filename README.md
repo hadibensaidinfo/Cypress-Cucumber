@@ -6,7 +6,7 @@
 ### 💻 Topics
 
 We reviewed topics like:
-1. 'master' Branch:
+1. 'main' Branch:
 - [x] Installation of Cucumber JS
 - [x] Translation from a normal script to Gherkin
 - [x] Add the step definitions
